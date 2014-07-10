@@ -3,3 +3,4 @@
 
 ## 準備
 - [GitHubリポジトリーから最新のRustをAndroid-NDKサポート付きで準備](GitHubリポジトリーから最新のRustをAndroid-NDKサポート付きで準備.md)
+- [Vim](Vim.md)
