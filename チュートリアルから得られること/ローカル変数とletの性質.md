@@ -74,6 +74,21 @@ result:
     1. `let mut x`のように`mut`を付けると「可変」となるようだ。
 1. `let`によりスコープ内で繰り返し同じシンボル名を使った場合には「再定義」となるようだ。
 
+### おまけ
+
+この文書の参考として後述の参考の1つ目に挙げる
+チュートリアル[syntac-basics](http://doc.rust-lang.org/tutorial.html#syntax-basics)
+の段階では`let`、あるいはまた`fn main`の`fn`など、
+これらは宣言や定義といったプログラミング言語上の構文だと多くのC系言語経験者は思うかも。
+
+でも実は`let`や`fn`、
+その他にもこれから先で学ぶ事になる`traits`や`enum`や`types`、
+それに`static`などは何れも「式」だったりするようだ。
+
+これについては後述の参考の2つ目に挙げる
+チュートリアル[Expressions and semicolons](http://doc.rust-lang.org/tutorial.html#expressions-and-semicolons)
+の最後でしれっと触れている。
+
 ### この文章と Rust のバージョン
 
 - 執筆: Rust-0.11.0
@@ -81,3 +96,4 @@ result:
 ### 参考
 
 - http://doc.rust-lang.org/tutorial.html#syntax-basics
+- http://doc.rust-lang.org/tutorial.html#expressions-and-semicolons
