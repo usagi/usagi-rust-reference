@@ -3,4 +3,5 @@
 
 ## チュートリアルから得られること
 - [Hello-World](Hello-World.md)
+- [if式](if式.md)
 - [ローカル変数とletの性質](ローカル変数とletの性質.md)
