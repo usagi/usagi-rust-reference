@@ -3,3 +3,4 @@
 
 ## チュートリアルから得られること
 - [Hello-World](Hello-World.md)
+- [ローカル変数とletの性質](ローカル変数とletの性質.md)
