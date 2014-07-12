@@ -40,6 +40,10 @@ result:
 
 1. `if ( true )`などと括弧を付けると、"warning: unnecessary parentheses around `if`"と警告を受けてしまう。Rustではif式の条件を括弧で囲む文法は不要のようだ。
 
+### 関連の強い頁
+
+1. [制御構造-条件分岐](制御構造-条件分岐.md)
+
 ### この文章と Rust のバージョン
 
 - 執筆: Rust-0.11.0
