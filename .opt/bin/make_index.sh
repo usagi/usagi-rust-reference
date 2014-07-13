@@ -38,7 +38,7 @@ make_index()
   echo "- [../${index}](../${index})"  >> $index
   echo ""              >> $index
   echo "## $section"   >> $index
-  global_index_buffer+="- [$section]($section)\n"
+  global_index_buffer+="- [$section]($section/$index)\n"
   for c in `find . -type f -iname '*.md' | sort`
   do
     if [ $c == ./$index  ]; then continue; fi
