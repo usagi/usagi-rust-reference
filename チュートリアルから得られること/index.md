@@ -1,5 +1,5 @@
 # うさぎさんでもわかるRustプログラミング言語リファレンス
-- [../](../)
+- [../index.md](../index.md)
 
 ## チュートリアルから得られること
 - [Hello-World](Hello-World.md)

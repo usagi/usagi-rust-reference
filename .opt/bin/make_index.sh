@@ -35,7 +35,7 @@ make_index()
   echo [generate: $section/$index]
   rm $index
   echo "# $book_title" >> $index
-  echo "- [../](../)"  >> $index
+  echo "- [../${index}](../${index})"  >> $index
   echo ""              >> $index
   echo "## $section"   >> $index
   global_index_buffer+="- [$section]($section)\n"
