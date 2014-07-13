@@ -37,3 +37,7 @@ usagi-rust-reference
 ## Author
 
 - Usagi Ito <usagi@WonderRabbitProject.net>
+
+## Contributers
+
+- [Masanori Ogino](https://twitter.com/omasanori)

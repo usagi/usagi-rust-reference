@@ -33,6 +33,10 @@ fn main( )
   }
 
   println!( "{}", fz( 384 ) );
+  
+  fn fp( ) { println!( "fp: unit?" ); }
+  
+  match fp() { () => println!( "fp: unit!" ) };
 }
 
 // グローバルスコープの後方参照
