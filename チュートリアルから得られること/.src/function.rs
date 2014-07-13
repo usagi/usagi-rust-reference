@@ -16,6 +16,23 @@ fn main( )
   fn fx() -> () { }
   
   match fx() { () => println!( "unit!" ) }
+
+  // 次の行は翻訳時にエラーとなる
+  // fn fy() { 123u }
+
+  fn fy() { }
+  
+  fy();
+
+  fn fz( a:uint ) -> uint
+  {
+    return match a
+    { a if a < 100 => 123
+    , _            => 456
+    };
+  }
+
+  println!( "{}", fz( 384 ) );
 }
 
 // グローバルスコープの後方参照
