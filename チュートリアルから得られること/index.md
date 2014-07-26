@@ -5,6 +5,7 @@
 - [Hello-World](Hello-World.md)
 - [assert](assert.md)
 - [if式](if式.md)
+- [vectorとVec](vectorとVec.md)
 - [ジェネリクス](ジェネリクス.md)
 - [タプル](タプル.md)
 - [タプル構造体](タプル構造体.md)
