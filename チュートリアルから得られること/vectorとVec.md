@@ -92,5 +92,4 @@ d.pop: None
 
 ### 参考
 
-- http://doc.rust-lang.org/tutorial.html#references
-
+- http://doc.rust-lang.org/tutorial.html#vectors-and-strings
