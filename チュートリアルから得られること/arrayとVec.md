@@ -7,7 +7,7 @@
 
 ### source
 
-file: [vector.rs](.src/vector.rs)
+file: [array_and_Vec.rs](.src/array_and_Vec.rs)
 
 ```rust
 fn main()
@@ -100,3 +100,5 @@ d.pop: None
 ### 参考
 
 - http://doc.rust-lang.org/tutorial.html#vectors-and-strings
+- https://github.com/rust-lang/rust/wiki/Rust-for-CXX-programmers#vectors--arrays
+
