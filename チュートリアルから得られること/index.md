@@ -4,6 +4,7 @@
 ## チュートリアルから得られること
 - [Hello-World](Hello-World.md)
 - [arrayとVec](arrayとVec.md)
+- [arrayとスライス](arrayとスライス.md)
 - [assert](assert.md)
 - [if式](if式.md)
 - [ジェネリクス](ジェネリクス.md)
