@@ -1,5 +1,12 @@
 ## vectorとVec
 
+### 注意
+
+- 現行版チュートリアルで "vector" と呼ばれ、この文書でもそれに従っているものは最新版では "array" と称するように変更されたらしい。
+    - https://twitter.com/omasanori/status/493133918342610945
+
+### source
+
 file: [vector.rs](.src/vector.rs)
 
 ```rust
