@@ -1,4 +1,4 @@
-## vectorとVec
+## arrayとVec
 
 ### 注意
 
