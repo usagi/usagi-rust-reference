@@ -26,4 +26,18 @@ fn main( )
     };
 
   println!( "x: {} y: {}", x, z );
+
+  let b = &[ 1u, 2, 3, 4, 5 ];
+  
+  fn print_from_head( a: &[uint] )
+  {
+    match a
+    { [ head, ..tails ]
+      => { print!( "{} ", head ); print_from_head( tails ) }
+    , []
+      => ()
+    }
+  }
+
+  print_from_head( b );
 }
