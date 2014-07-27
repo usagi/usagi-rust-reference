@@ -10,6 +10,11 @@ fn main()
   let b: &str = a.slice( 0, 6 );
   println!( "{}", b );
 
+  // チュートリアルには無いけど、文字単位でもsliceできるようだ。
+  // https://twitter.com/omasanori/status/493378699798925312
+  let b2 = a.slice_chars( 3, 5 );
+  println!( "{}", b2 );
+
   // 文字列の array
   let c: [ &str, ..3 ] = [ "abc", "def", "xyz" ];
   // 文字列の array の
